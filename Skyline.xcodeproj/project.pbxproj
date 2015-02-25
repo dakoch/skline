@@ -15,6 +15,14 @@
 		74D9CF2E1A9E2C8D00C8A2E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D9CF2D1A9E2C8D00C8A2E3 /* Images.xcassets */; };
 		74D9CF311A9E2C8D00C8A2E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74D9CF2F1A9E2C8D00C8A2E3 /* LaunchScreen.xib */; };
 		74D9CF3D1A9E2C8D00C8A2E3 /* SkylineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D9CF3C1A9E2C8D00C8A2E3 /* SkylineTests.m */; };
+		74D9CF4B1A9E2FDD00C8A2E3 /* skline07.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 74D9CF4A1A9E2FDD00C8A2E3 /* skline07.jpeg */; };
+		74D9CF531A9E2FFD00C8A2E3 /* skyline03.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 74D9CF4C1A9E2FFD00C8A2E3 /* skyline03.jpeg */; };
+		74D9CF541A9E2FFD00C8A2E3 /* skyline04.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 74D9CF4D1A9E2FFD00C8A2E3 /* skyline04.jpeg */; };
+		74D9CF551A9E2FFD00C8A2E3 /* skyline06.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 74D9CF4E1A9E2FFD00C8A2E3 /* skyline06.jpeg */; };
+		74D9CF561A9E2FFD00C8A2E3 /* skyline08.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 74D9CF4F1A9E2FFD00C8A2E3 /* skyline08.jpeg */; };
+		74D9CF571A9E2FFD00C8A2E3 /* skyline09.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 74D9CF501A9E2FFD00C8A2E3 /* skyline09.jpeg */; };
+		74D9CF581A9E2FFD00C8A2E3 /* skline07.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 74D9CF511A9E2FFD00C8A2E3 /* skline07.jpeg */; };
+		74D9CF591A9E2FFD00C8A2E3 /* images02.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 74D9CF521A9E2FFD00C8A2E3 /* images02.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +50,14 @@
 		74D9CF361A9E2C8D00C8A2E3 /* SkylineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkylineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D9CF3B1A9E2C8D00C8A2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74D9CF3C1A9E2C8D00C8A2E3 /* SkylineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkylineTests.m; sourceTree = "<group>"; };
+		74D9CF4A1A9E2FDD00C8A2E3 /* skline07.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skline07.jpeg; sourceTree = "<group>"; };
+		74D9CF4C1A9E2FFD00C8A2E3 /* skyline03.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = skyline03.jpeg; path = ../skyline03.jpeg; sourceTree = "<group>"; };
+		74D9CF4D1A9E2FFD00C8A2E3 /* skyline04.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = skyline04.jpeg; path = ../skyline04.jpeg; sourceTree = "<group>"; };
+		74D9CF4E1A9E2FFD00C8A2E3 /* skyline06.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = skyline06.jpeg; path = ../skyline06.jpeg; sourceTree = "<group>"; };
+		74D9CF4F1A9E2FFD00C8A2E3 /* skyline08.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = skyline08.jpeg; path = ../skyline08.jpeg; sourceTree = "<group>"; };
+		74D9CF501A9E2FFD00C8A2E3 /* skyline09.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = skyline09.jpeg; path = ../skyline09.jpeg; sourceTree = "<group>"; };
+		74D9CF511A9E2FFD00C8A2E3 /* skline07.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = skline07.jpeg; path = ../skline07.jpeg; sourceTree = "<group>"; };
+		74D9CF521A9E2FFD00C8A2E3 /* images02.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images02.jpeg; path = ../images02.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +99,10 @@
 		74D9CF1C1A9E2C8D00C8A2E3 /* Skyline */ = {
 			isa = PBXGroup;
 			children = (
-				74D9CF211A9E2C8D00C8A2E3 /* AppDelegate.h */,
-				74D9CF221A9E2C8D00C8A2E3 /* AppDelegate.m */,
-				74D9CF271A9E2C8D00C8A2E3 /* ViewController.h */,
-				74D9CF281A9E2C8D00C8A2E3 /* ViewController.m */,
-				74D9CF2A1A9E2C8D00C8A2E3 /* Main.storyboard */,
+				74D9CF491A9E2CDD00C8A2E3 /* Delegates */,
+				74D9CF481A9E2CC200C8A2E3 /* Controller Layer */,
+				74D9CF471A9E2CB600C8A2E3 /* View Layer */,
+				74D9CF461A9E2CA900C8A2E3 /* Model Layer */,
 				74D9CF2D1A9E2C8D00C8A2E3 /* Images.xcassets */,
 				74D9CF2F1A9E2C8D00C8A2E3 /* LaunchScreen.xib */,
 				74D9CF241A9E2C8D00C8A2E3 /* Skyline.xcdatamodeld */,
@@ -99,6 +114,14 @@
 		74D9CF1D1A9E2C8D00C8A2E3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				74D9CF4C1A9E2FFD00C8A2E3 /* skyline03.jpeg */,
+				74D9CF4D1A9E2FFD00C8A2E3 /* skyline04.jpeg */,
+				74D9CF4E1A9E2FFD00C8A2E3 /* skyline06.jpeg */,
+				74D9CF4F1A9E2FFD00C8A2E3 /* skyline08.jpeg */,
+				74D9CF501A9E2FFD00C8A2E3 /* skyline09.jpeg */,
+				74D9CF511A9E2FFD00C8A2E3 /* skline07.jpeg */,
+				74D9CF521A9E2FFD00C8A2E3 /* images02.jpeg */,
+				74D9CF4A1A9E2FDD00C8A2E3 /* skline07.jpeg */,
 				74D9CF1E1A9E2C8D00C8A2E3 /* Info.plist */,
 				74D9CF1F1A9E2C8D00C8A2E3 /* main.m */,
 			);
@@ -120,6 +143,39 @@
 				74D9CF3B1A9E2C8D00C8A2E3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74D9CF461A9E2CA900C8A2E3 /* Model Layer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Model Layer";
+			sourceTree = "<group>";
+		};
+		74D9CF471A9E2CB600C8A2E3 /* View Layer */ = {
+			isa = PBXGroup;
+			children = (
+				74D9CF2A1A9E2C8D00C8A2E3 /* Main.storyboard */,
+			);
+			name = "View Layer";
+			sourceTree = "<group>";
+		};
+		74D9CF481A9E2CC200C8A2E3 /* Controller Layer */ = {
+			isa = PBXGroup;
+			children = (
+				74D9CF271A9E2C8D00C8A2E3 /* ViewController.h */,
+				74D9CF281A9E2C8D00C8A2E3 /* ViewController.m */,
+			);
+			name = "Controller Layer";
+			sourceTree = "<group>";
+		};
+		74D9CF491A9E2CDD00C8A2E3 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				74D9CF211A9E2C8D00C8A2E3 /* AppDelegate.h */,
+				74D9CF221A9E2C8D00C8A2E3 /* AppDelegate.m */,
+			);
+			name = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +258,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D9CF531A9E2FFD00C8A2E3 /* skyline03.jpeg in Resources */,
+				74D9CF561A9E2FFD00C8A2E3 /* skyline08.jpeg in Resources */,
+				74D9CF581A9E2FFD00C8A2E3 /* skline07.jpeg in Resources */,
 				74D9CF2C1A9E2C8D00C8A2E3 /* Main.storyboard in Resources */,
 				74D9CF311A9E2C8D00C8A2E3 /* LaunchScreen.xib in Resources */,
+				74D9CF591A9E2FFD00C8A2E3 /* images02.jpeg in Resources */,
+				74D9CF571A9E2FFD00C8A2E3 /* skyline09.jpeg in Resources */,
+				74D9CF4B1A9E2FDD00C8A2E3 /* skline07.jpeg in Resources */,
 				74D9CF2E1A9E2C8D00C8A2E3 /* Images.xcassets in Resources */,
+				74D9CF541A9E2FFD00C8A2E3 /* skyline04.jpeg in Resources */,
+				74D9CF551A9E2FFD00C8A2E3 /* skyline06.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +480,7 @@
 				74D9CF421A9E2C8D00C8A2E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74D9CF431A9E2C8D00C8A2E3 /* Build configuration list for PBXNativeTarget "SkylineTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +489,7 @@
 				74D9CF451A9E2C8D00C8A2E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

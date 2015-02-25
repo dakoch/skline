@@ -10,9 +10,15 @@
 
 @interface ViewController ()
 
+
 @end
 
 @implementation ViewController
+
+- (IBAction)building164 {
+    NSLog(@"building164 (WAMU Tower)");
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
